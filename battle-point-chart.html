@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <style type="text/css">
         @font-face {
             font-family: 'DSEG7Classic';
-            src: url("./images/DSEG7Classic-Regular.woff");
+            src: url(./images/DSEG7Classic-Regular.woff);
         }
         
         .chart-container {
@@ -110,22 +110,22 @@
                 <dt>Defense + Armor</dt>
                 <dd><input type="number" class="chart-input-params" id="chart-input-params-04" min="0" max="100" step="10" value="0"
                     /></dd>
-                <dt>Weight　　　</dt>
+                <dt>Weight</dt>
                 <dd><input type="number" class="chart-input-params" id="chart-input-params-05" min="0" max="100" step="10" value="0"
                     /></dd>
-                <dt>Active Time　</dt>
+                <dt>Active Time</dt>
                 <dd><input type="number" class="chart-input-params" id="chart-input-params-06" min="0" max="100" step="10" value="0"
                     /></dd>
-                <dt>Stealth　　　</dt>
+                <dt>Stealth</dt>
                 <dd><input type="number" class="chart-input-params" id="chart-input-params-07" min="0" max="100" step="10" value="0"
                     /></dd>
-                <dt>Recon　　　</dt>
+                <dt>Recon</dt>
                 <dd><input type="number" class="chart-input-params" id="chart-input-params-08" min="0" max="100" step="10" value="0"
                     /></dd>
-                <dt>Air Mobility　</dt>
+                <dt>Air Mobility</dt>
                 <dd><input type="number" class="chart-input-params" id="chart-input-params-09" min="0" max="100" step="10" value="0"
                     /></dd>
-                <dt>Ground Mobility　</dt>
+                <dt>Ground Mobility</dt>
                 <dd><input type="number" class="chart-input-params" id="chart-input-params-10" min="0" max="100" step="10" value="0"
                     /></dd>
         </form>
@@ -158,8 +158,8 @@
         var ctx = chartElement.getContext("2d");
         var data = {
             labels: [
-                "Close Range", "Mid Range", "Long Range", "Defense + Armor", "Weight　　　",
-                "Active Time　", "Stealth　　　", "Recon　　　", "Air Mobility　", "Ground Mobility　"],
+                "Close Range", "Mid Range", "Long Range", "Defense + Armor", "Weight",
+                "Active Time", "Stealth", "Recon", "Air Mobility", "Ground Mobility"],
             datasets: [
                 {
                     label: "MEGAMI's Battle Points",
